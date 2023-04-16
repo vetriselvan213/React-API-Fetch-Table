@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+table{
+  max-width: 80rem;
+  margin: 1rem auto;
+  border-radius: 2rem;
+  border: 1rem hidden #443C68;
+  border-collapse: collapse;
+  box-shadow: 0 0 0 1px black;
+  overflow: hidden;
+}
+
+td{
+  font-size:1.4rem ;
+  line-height: 1.6;
+}
+
+thead{
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: #443C68;
+}
+
+th,td{
+  border: 1px solid #443C68;
+  min-width: 25rem;
+  padding: 1rem;
+  line-height: 1.7;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.btn{
+  color: #443C68;
+  font-weight: 600;
+  background-color: #fff;
+  padding: .5rem 2rem;
+  border:1px solid #443C68;
+  border-radius: 1rem;
+}
+
+.btn:hover{
+  cursor: pointer;
+  color: #fff;
+  background-color: #443C68;
+}
+
+.btn-update{
+  margin-right: 5px;
+}
+
+.btn-update:hover{
+  cursor: pointer;
+  color:white;
+  background-color: green;
+  border:1px solid green;
+}
+
+input{
+  border: 1px solid #443C68;
+  padding: 4px 10px;
+  box-shadow: 0 0 5px #443C68;
+}
+
+/* { This code fetches data from the JSONPlaceholder API, displays it in a table, and allows the user to edit and update the data using input tags and buttons. The `handleInputChange` method updates the `newData` object in state whenever the user types into an input tag. The `handleEdit` method sets the `editId` state to the ID of the object being edited and copies the object's data into the `newData` object to prepopulate the input tags. The `handleUpdate` method updates the data in the state with the edited data and resets the `editId` and `newData` state back to their default values. } */
+
+
+
+
